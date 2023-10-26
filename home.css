@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.heading{
+    text-align:center;
+    font-size: 65px;
+}
+#loginButton{
+    margin-right:2%;
+}
+.navbar-expand-lg{
+    height: 130px;
+    font-size: 20px;
+    width:100%;
+}
+p{
+    margin-right: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.carousel-control-next-icon{
+    background-image:none !important;
+}
+.carousel-control-prev-icon{
+    background-image:none !important;
+}
+@media screen and (min-width: 300px) and (max-width:1000px) {
+    #carouselExampleCaptions{
+        margin-top:300px;
+    }
+}

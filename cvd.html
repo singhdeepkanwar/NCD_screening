@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVD RISK ASSESSMENT  | ABC Hospital </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ <link href="core.css" rel="stylesheet">
+ <link href="home.css" rel="stylesheet">
+ <link href="global.css" rel="stylesheet">
+  </head>
+<body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">ABC Hospital</a> -->
+          <p>ABC Hospital</p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="forms.html">Forms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-success"id="loginButton">Login</button>
+            <!-- <button id="loginButton">Login</button> -->
+            <script>
+                // JavaScript to redirect to "login.html" when the button is pressed
+                document.getElementById("loginButton").addEventListener("click", function() {
+                    window.location.href = "login.html";
+                });
+            </script>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- NAVBAR -->
+      <h1>CVD Risk Assessment</h1>
+      <br>
+      <!-- FORM -->
+      <ol>
+        <div class="mb-3">
+         <li><label for="exampleInputPassword1" class="form-label"><p id="data">Age</p></label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div></li>   
+          <li><p id="data" class="ml-1">Sex
+          </p>
+            <button type="button" class="btn btn-primary ml-1">Male</button>
+            <button type="button" class="btn btn-primary ml-0">Female</button></li>
+        <li><p id="data"class="ml-1">Smoker</p>
+              <button type="button" class="btn btn-primary ml-1">Yes</button>
+              <button type="button" class="btn btn-primary ml-0">No</button></li>
+        <li><p id="data"class="ml-1">Hypertension</p>
+                <button type="button" class="btn btn-primary ml-1">Yes</button>
+                <button type="button" class="btn btn-primary ml-0">No</button></li>
+        <li><p id="data"class="ml-1">If yes</p>
+                  <button type="button" class="btn btn-primary ml-1">Previously diagnosed</button>
+                  <button type="button" class="btn btn-primary ml-0">Freshly diagnosed</button></li>
+        <li><div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"><p id="data">Systolic Bp</p></label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div></li>
+        <li><p id="data" class="ml-1">Blood Pressure Being Treated with medicines</p>
+                      <button type="button" class="btn btn-primary ml-1">Yes</button>
+                      <button type="button" class="btn btn-primary ml-0">No</button></li><br>
+        <li><p id="data" class="ml-0">Diabetes</p>
+                        <button type="button" class="btn btn-primary ml-1">Yes</button>
+                        <button type="button" class="btn btn-primary ml-0">No</button></li><br>
+        <li><p id="data"class="ml-0">If yes</p>
+                        <button type="button" class="btn btn-primary ml-1">Previously diagnosed</button>
+                        <button type="button" class="btn btn-primary ml-0">Freshly diagnosed</button></li><br>
+        <li><div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">RBS/FBS</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div></li>          
+                    </ol><br><br>
+                    <button type="submit"id="button" class="btn btn-primary ml-1">Submit</button>
+        
+      <!-- FORM -->
+</body>
+</html>

@@ -1,0 +1,73 @@
+h1{
+text-align:center;
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    text-align: center;
+}
+.form-label_1{
+    margin-left: 62%;
+}
+.form-label{
+    margin-left: 62%;
+}
+.btn btn-primary{
+    margin-left: 1200px !important;
+}
+.form-text{
+    margin-left: 62%;
+}
+.ml-1{
+    margin-left:65%;
+}
+#exampleInputEmail1{
+    width:15%;
+    margin-left: 62%;
+}
+#exampleInputPassword1{
+    width:15%;
+    margin-left: 62%;
+}
+.form-select{
+    width:20%;
+    margin-left: 62%;
+}
+#form-label_dob{
+    margin-left: 62%;
+}
+form{
+    background-image: url("https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+@media screen and (min-width: 300px) and (max-width:1000px) {
+   h1{
+    font-size: 22px;
+    margin-top: 100px;
+    }
+    .form-label_1{
+        margin-left: 2%;
+    }
+    .form-label{
+        margin-left: 2%;
+    }
+    #exampleInputEmail1{
+        width:55%;
+        margin-left: 2px;
+    }
+    #exampleInputPassword1{
+        margin-left: 2px;
+        width:55%;
+    }
+    .form-select{
+        margin-left: 2px;
+        width:50%;
+    }
+    #form-label_dob{
+        margin-left: 2px;
+    }
+    #button{
+        margin-left: 2px;
+    }
+    #emailHelp{
+        margin-left: 2px;
+    }
+}

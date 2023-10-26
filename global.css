@@ -1,0 +1,18 @@
+#data{
+    margin:20px ;
+    font-size:20px;
+}
+h1{
+    text-align: center;
+    margin:40px;
+}
+body{
+background-image: url("https://images.unsplash.com/photo-1625225233840-695456021cde?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcm18ZW58MHx8MHx8fDA%3D");
+background-size: cover;
+}
+#button{
+    margin-left: 25% !important;
+}
+#exampleInputPassword1{
+    width:55%;
+}
